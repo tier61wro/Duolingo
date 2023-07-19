@@ -4,7 +4,15 @@
 [![Coverage Status](https://coveralls.io/repos/github/KartikTalwar/Duolingo/badge.svg?branch=master)](https://coveralls.io/github/KartikTalwar/Duolingo?branch=master)
 [![PyPI version fury.io](https://badge.fury.io/py/duolingo-api.svg)](https://pypi.python.org/pypi/duolingo-api/)
 
-Unofficial Duolingo API Written in Python. This is mostly a collection of functions that give you common data directly from the API resource dictionary. More methods to come.
+Unofficial Duolingo API Written in Python.
+
+This is my fork of the main repository. 
+In this fork, I've implemented a fix for an issue that was causing an authorization token retrieval error. 
+This issue had been making the library unusable, but with my fix, I've managed to restore its functionality. 
+Please note that while this fix is working at the moment, I can't guarantee its longevity due to possible future changes in Duolingo's API.
+
+Best regards,
+Alex
 
 ##### TODO
 
