@@ -99,8 +99,8 @@ class Duolingo(object):
             return True
         self.jwt = None
 
-        login_url = "https://www.duolingo.com/login"
-        data = {"login": self.username, "password": self.password}
+        login_url = "https://www.duolingo.com/2017-06-30/login-experiment?fields="
+        data = {"identifier": self.username, "password": self.password}
         request = self._make_req(login_url, data)
         attempt = request.json()
 
